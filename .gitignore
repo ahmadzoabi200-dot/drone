@@ -1,0 +1,28 @@
+# --- Build artifacts ---
+build/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.d
+# Arduino IDE pre-processes sketches into .ino.cpp
+*.ino.cpp
+
+# --- PlatformIO ---
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# --- IDE / editor folders ---
+.vscode/
+.idea/
+.theia/
+
+# --- FreeCAD backups ---
+*.FCBak
+*.FCStd1
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
